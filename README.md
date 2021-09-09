@@ -1,2 +1,4 @@
 # RTR105
-Datormācība
+- Kursa ID
+## Datormācība
+- Pamatkurss
