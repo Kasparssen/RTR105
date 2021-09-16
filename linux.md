@@ -1,16 +1,20 @@
-# who
+# ```uname```
+
+Parāda pašreizējo OS
+
+# ```who```
 
 Parāda visus aktīvos lietotājus 
 
-# whoami
+# ```whoami```
 
 Parāda pašreizējo lietotāju
 
-# pwd
+# ```pwd```
 
 Parāda, kur pašlaik atrodas lietotājs (mape vai fails)
 
-# ls
+# ```ls```
 
 Parāda esošajā directory pieejamās mapes un failus
 
@@ -25,11 +29,16 @@ Lai iegūtu pilno sarakstu, nav svarīgi, kādā secībā raksta -la, arī, kad 
 Punkts "." ir pašreizējā mape
 Punkti ".." ir "līmenis augstāk"
 
-# cd
+# ```cd```
 
 Pārslēdz pašreizējo mapi vai failu uz norādīto
 
-Izmantojot ".." iziet uz mapi augstāk
+```cd ..``` aiziet uz mapi augstāk
 
-Izmantojot "~" var ātri tikt uz "mājām"
+```cd ~``` ar var ātri tikt uz "mājām"
 
+Vislabāk ir cd izmantot pēc ls izmantošanas, lai viegli varētu norakstīt no iepriekšējās rindas jaunās mapes vai faila precīzu nosaukumu
+
+Rakstot mapes vai faila atrašanās vietu, slīpsvīrta ```/``` norāda absolūto adresi. 
+
+```cd /``` aiziet uz root datni
