@@ -55,7 +55,7 @@ Nodrukā datnes saturu. Piemēram, izveidota datne ar tekstu nevis atvērs edito
 
 ### Pirmais sarakstītais kods - main () {return 0;}
 
-Kompilē sarakstīto kodu
+Kompilē sarakstīto kodu C valodā
 
 - ```-o file.name``` Nosauc output datni vēlamā nosaukumā
 
