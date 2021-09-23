@@ -53,7 +53,11 @@ Nodrukā datnes saturu. Piemēram, izveidota datne ar tekstu nevis atvērs edito
 
 ## ```gcc```
 
+### Pirmais sarakstītais kods - main () {return 0;}
+
 Kompilē sarakstīto kodu
+
+- ```-o file.name``` Nosauc output datni vēlamā nosaukumā
 
 - ```-save-temps``` saglabā īslaicīgos datus
 
