@@ -3,11 +3,11 @@ int main ()
 
 
 {
-        char a;
-        printf("Ievadiet skaitli (Darbojošās vērtības - [0-127])  \n"); 
-        scanf("%d", &a);
-        printf("Skaitlis binārajā sistēmā :  "); // Ievadot skaitli, kas lielāks par 127, kods sāk vērtības "1" rādīt kā "-1". Šī ķļūme nenotiek, ja izmanto int char vietā.
-        printf("%d", ((a >> 7) % 2));            // Lai tiktu vaļā no - zīmēm, centos izmantot "u" "d" vietā funkcijā, taču tas radīja vēl vairāk problēmu.
+        unsigned char a;                        //Izmantojot "unsigned char", atrisinās kļūme, kur skaitļi, kuri ir lielāki par 127 sāk ciparu "1" parādīt kā "-1"
+        printf("Lai redzētu skaitli binārajā sistēmā, ievadiet skaitli no 0 līdz 255.  \n"); 
+        scanf("%hhd", &a);                      // "%hhd" atrisina kļūmi, kurā programma sagaida citu datu tipu no "char"
+        printf("Skaitlis binārajā sistēmā :  "); 
+        printf("%d", ((a >> 7) % 2));            
         printf("%d", ((a >> 6) % 2));
         printf("%d", ((a >> 5) % 2));
         printf("%d", ((a >> 4) % 2));
