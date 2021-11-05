@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 
 int main ()
 {
@@ -24,7 +24,8 @@ int main ()
                    }
         cikls++;                            // Ja pārbaude neizpildās, cilks turpinās
                 }
-        if(ch/(cikls-1) == ieprieksejais){printf("Skaitļa %d faktorials ir %d\n",a,ch);
+        if(a == 0){printf("Skaitļa %d faktorials ir 1\n",a);}        
+        if(a > 0 && ch/(cikls-1) == ieprieksejais){printf("Skaitļa %d faktorials ir %d\n",a,ch);
               }
         }
 
@@ -42,7 +43,8 @@ int main ()
                   }
         cikls++;
                 }
-        if(nt/(cikls-1) == ieprieksejais){printf("Skaitļa %d faktorials ir %d\n",a,nt);
+        if(a == 0){printf("Skaitļa %d faktorials ir 1\n",a);}   
+        if(a>0 && nt/(cikls-1) == ieprieksejais){printf("Skaitļa %d faktorials ir %d\n",a,nt);
               }
         }
 
@@ -60,7 +62,8 @@ int main ()
                   }
         cikls++;
                 }
-        if(lg/(cikls-1) == ieprieksejais){printf("Skaitļa %d faktorials ir %lld\n",a,lg);
+        if(a == 0){printf("Skaitļa %d faktorials ir 1\n",a);}   
+        if(a > 0 && lg/(cikls-1) == ieprieksejais){printf("Skaitļa %d faktorials ir %lld\n",a,lg);
               }
         }
 
