@@ -10,3 +10,7 @@ Galvenās funkcijas un pirmo trīs teilora rindas funkciju grafiki iekš gnuplot
 ![gnuplot_series](https://user-images.githubusercontent.com/90375574/150643552-a570c831-1a81-4016-a284-de9cd5014ee7.png)
 
 Var redzēt, ka pirmie pāris aprēķini nesakrīt ar Sin^2(x/2) funkciju. Kā arī jāpiemin, ka funkcijas rezultāts nevar būt negatīvs skaitlis, jo tās vērtību apgabals ir [0;1].
+
+Pašas funkcijas grafiks :
+
+![gnuplot_sin2(x2)](https://user-images.githubusercontent.com/90375574/150643640-2d0b8857-3266-46b0-a6b7-3132bf784132.png)
