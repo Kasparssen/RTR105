@@ -26,13 +26,14 @@ void main () {
                 fx_primform[i]=(fx[i+1]-fx[i])/delta_x;
                 x += delta_x;
         }
+        for (i=0;i<N-1;i++){            //F(x)'' caur atvasinaajumu
+                fx_prim2[i]= (cos(x/2)*cos(x/2))/2-(sin(x/2)*sin(x/2))/2;
+                x += delta_x;
         for (i=0;i<N-1;i++){            //F(x)'' caur delta formulu
                 fx_primform2[i]=(fx_prim[i+1]-fx_prim[i])/delta_x;
                 x += delta_x;
         }
-        for (i=0;i<N-1;i++){            //F(x)'' caur atvasinaajumu
-                fx_prim2[i]= (cos(x/2)*cos(x/2))/2-(sin(x/2)*sin(x/2))/2;
-                x += delta_x;
+
         }
         printf("\tx\t\tF(x)\t\tF\'(x)\t\tF\'(x)\t\tF\'\'(x)\t\tF\'\'(x)\n");
         x =a;
